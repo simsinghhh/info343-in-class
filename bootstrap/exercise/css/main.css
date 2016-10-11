@@ -1,0 +1,17 @@
+h1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+body{
+    color: white;
+    text-align: center;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+   
