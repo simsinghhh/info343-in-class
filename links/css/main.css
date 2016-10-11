@@ -3,3 +3,42 @@ body {
     font-size: 20px;
     padding: 1em;
 }
+
+.icon-link { 
+    color: #333; /*adding in a new color for your icon link*/
+}
+
+.icon-link:hover { /*when you hover over the icon, the color will change to #F00*/
+    color: #F00;
+}
+
+.button-link {
+    color: #333; /*color of the button link*/
+    text-decoration: none; /*when you put "none" the hyperlink goes away. There is no decoration on it*/
+    border-width: 1px; /*How big you want the button*/
+    border-style: solid; /*border will be solid*/
+    border-color: #222; /*border will be that color*/
+    border-radius: 4px; /*adds a curvature to the button*/
+    padding: 0.5em 1em; /*the unit of measurement relative to the current font*/
+    transition: all 500ms; /*changes the color effect and adds a timing to it*/
+}
+
+.button-link:hover { /*happens only when the link is being hovered over*/
+    background-color: #AAA; /*adds a background color to the button*/
+}
+
+@keyframes fadeIn {
+    from{ /*start of the animation*/
+        opacity: 0;
+    }
+ 
+    to{ /*end of the animation*/
+        opacity: 1;
+
+    }
+}
+
+.fadeIn { /*This is a style class that uses the @keyframes as rules. We use this in the index.html in the body section. https://daneden.github.io/animate.css/ is a fun website to show animations*/ 
+    animation-name:fadeIn;
+    animation-duration: 1s;
+}
