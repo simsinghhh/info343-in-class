@@ -10,3 +10,10 @@ body {
     the content doesn't start under the navbar*/
     padding-top: 50px;
 }
+
+.jumbotron {
+    background-image: url(../img/banner.jpg); /*adds in an image as the background of the banner*/
+    background-position: center;/*centers the position of the image*/
+    background-size: cover; /*covers the entire "jumbotron"*/
+    color: #FFF; /*makes actual font white"*/
+}
